@@ -7,6 +7,7 @@
 
 bool isPalindrome(char* str);
 char* substr(char* str, int from, int to);
+//asdasdsad
 
 int main(int argc, char* argv[]){
     if(argc<3||(argc-2)!=atoi(argv[1])){
