@@ -25,17 +25,23 @@ int main(int argc, char* argv[]){
         while(counter<=strlen(argv[i])-1){
 
             int anothercounter=counter+1;
-  //          printf("Counter Value: %i\n",counter);
-    //        printf("Anothercounter  Value: %i\n",anothercounter);
+            printf("Counter Value: %i\n",counter);
+            printf("Anothercounter  Value: %i\n",anothercounter);
 
             while(anothercounter<strlen(argv[i])){
+             printf("Counter Value: %i\n",counter);
+            printf("Anothercounter  Value: %i\n",anothercounter);
+
                 tempptr=substr(argv[i],counter,anothercounter);
                 if(isPalindrome(tempptr)){
-      //              printf("Found a palindrome!\n");
-        //            printf("%s\n",substr(argv[i],counter,anothercounter));
+                    printf("Found a palindrome!\n");
+                     printf("%s\n",substr(argv[i],counter,anothercounter));
                     nump++;
                 }
-                
+            
+                     printf("%s\n",substr(argv[i],counter,anothercounter));
+                    
+
 
 
                 anothercounter++;
